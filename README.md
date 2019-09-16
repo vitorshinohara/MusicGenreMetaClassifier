@@ -61,6 +61,6 @@ python classifier.py --input data/gtzan-ds_rp-feats_frames
 ## Authors
 
 * **Vítor Yudi Shinohara** - State University of Campinas
-* **Juliano Henrique Foleiss** - The Federal University of Technology - Paraná
+* **Juliano Henrique Foleiss** - Federal University of Technology - Paraná
 * **Tiago Fernandes Tavares** - State University of Campinas
 

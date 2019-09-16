@@ -18,9 +18,6 @@ def main(datasetPath):
     elif datasetName == 'exballroom':
         class_number = 13
 
-    print class_number
-
-
     labelsPath = dataset_params['labels_path']
     for frame_number in dataset_params['frames_number']:
         for feat_number in dataset_params['n_feats']:

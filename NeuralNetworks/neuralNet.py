@@ -36,12 +36,12 @@ def fitAndEvaluate(sequence_length, k, k_relu, rnnLayerEnabled, epoch_size, moni
 	model = generateModel(sequence_length, k, k_relu, class_number, rnnLayerEnabled)
 	model = optmizeAndCompileModel(model)
 
-	for i in xrange(1,foldNumber + 1):
+	for i in range(1,foldNumber + 1):
 		X_train = []
 		Y_train = []
 		X_test = []
 		Y_test = []
-		for j in xrange(1,foldNumber + 1):
+		for j in range(1,foldNumber + 1):
 			if i == j:
 				continue
 			try:
