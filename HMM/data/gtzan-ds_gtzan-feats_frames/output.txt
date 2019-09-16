@@ -1,0 +1,3 @@
+n_components,covariance_type,n_iter,features,classifier,nfeats,n_frames,selector,f1,stdev,time_elapsed
+3,full,100,gtzan-feats,SVM,,5,0.6399999999999999,0.0507937003968012,60.25388145446777
+,,,,,,,,,,,
